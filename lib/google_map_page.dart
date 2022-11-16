@@ -36,6 +36,7 @@ class _GoogleMapState extends State<GoogleMapPage> {
       child,
     ) {
       if (model.locationPosition != null) {
+        print("Hello");
         return Column(
           children: [
             Expanded(
